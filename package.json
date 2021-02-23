@@ -1,0 +1,61 @@
+{
+  "name": "v-form-builder",
+  "version": "2.0.1",
+  "description": "Vue Form Builder PRO MAX built from top of Vue. Super dynamic and flexible including Drag and Drop feature.",
+  "author": {
+    "email": "phattranminh@gmail.com",
+    "name": "Phat Tran",
+    "url": "https://sethphat.com"
+  },
+  "private": false,
+  "license": "MIT",
+  "main": "./dist/v-form-builder.umd.min.js",
+  "scripts": {
+    "serve": "cross-env NODE_ENV=development vue-cli-service serve --port 9999",
+    "build": "vue-cli-service build --skip-plugins @vue/cli-plugin-eslint",
+    "build-lib": "cross-env NODE_ENV=production vue-cli-service build --target lib --name v-form-builder ./src/index.js --skip-plugins @vue/cli-plugin-eslint",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "core-js": "^2.6.5",
+    "dayjs": "^1.8.28",
+    "deep-equal": "^2.0.3",
+    "litepicker": "^1.4.6",
+    "vue": "^2.6.10",
+    "vuedraggable": "^2.23.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.0.3",
+    "@vue/cli-service": "^4.4.4",
+    "babel-eslint": "^10.0.1",
+    "cross-env": "^7.0.2",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "faker": "^4.1.0",
+    "vue-template-compiler": "^2.6.10",
+    "node-forge": ">=0.10.0"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ],
+  "repository": {
+    "url": "https://github.com/sethsandaru/vue-form-builder.git"
+  },
+  "keywords": [
+    "vue-form-builder",
+    "v-form-builder",
+    "vue form builder with drag drop",
+    "vue form builder pro max",
+    "vue",
+    "vuejs",
+    "form builder",
+    "drag & drop",
+    "seth phat"
+  ]
+}
